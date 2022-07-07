@@ -28,6 +28,13 @@
         android:title="@string/smart_pixels_title" 
         android:summary="@string/smart_pixels_summary" 
         android:fragment="com.beyond.ordinary.fragments.SmartPixelsSettings" />
+
+    <!-- Screenshot Sound -->
+    <com.genesis.support.preferences.SystemSettingSwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title"
+        android:summary="@string/screenshot_shutter_sound_summary"
+        android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
